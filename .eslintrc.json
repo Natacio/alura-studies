@@ -20,63 +20,9 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "import/extensions": "off",
-        "comma-dangle": [
-            0
-        ],
-        "quotes": [
-            0
-        ],
-        "react/prop-types": [
-            0
-        ],
-        "react/jsx-filename-extension": [
-            1,
-            {
-                "extensions": [
-                    ".js",
-                    ".tsx"
-                ]
-            }
-        ],
-        "react/jsx-props-no-spreading": [
-            0
-        ],
-        "import/prefer-default-export": [
-            0
-        ],
-        "react/react-in-jsx-scope": [
-            0
-        ],
-        "import/no-unresolved": [
-            0
-        ],
-        "indent": [
-            0
-        ],
-        "no-use-before-define": [
-            0
-        ],
-        "no-console": [
-            0
-        ],
-        "max-len": [
+        "space-before-function-paren": [
             "error",
-            {
-                "code": 120
-            }
-        ],
-        "react/require-default-props": [
-            0,
-            {
-                " forbidDefaultForRequired": false,
-                "ignoreFunctionalComponents": true
-            }
+            "always"
         ]
-    },
-    "settings": {
-        "import/resolver": {
-            "typescript": {}
-        }
     }
 }
