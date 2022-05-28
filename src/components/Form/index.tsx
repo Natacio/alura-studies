@@ -1,10 +1,10 @@
 import React from 'react'
 import Button from '../Button'
-import './style.scss'
+import style from './style.module.scss'
 
 const Form = () => (
-    <form className='novaTarefa'>
-        <div className='inputContainer'>
+    <form className={style.novaTarefa}>
+        <div className={style.inputContainer}>
             <label htmlFor='tarefa'>
                 Adicione uma tarefa
             </label>
@@ -19,7 +19,7 @@ const Form = () => (
                 </input>
 
         </div>
-        <div className='inputContainer'>
+        <div className={style.inputContainer}>
         <label htmlFor='tarefa'>
                 Tempo
             </label>

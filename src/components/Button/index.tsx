@@ -1,6 +1,6 @@
 import React from 'react'
-import './style.scss'
+import style from './style.module.scss'
 
-const Button = () => (<button className='botao'>Botão</button>)
+const Button = () => (<button className={style.botao}>Botão</button>)
 
 export default Button
